@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio responsividade - Site para o discord</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">LOGO</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle"></button>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <h1>Bem vindo</h1>
+        <p>Aprenda a criar sites responsivos com HTML e CSS</p>
+        <a href="#sobre" class="btn">Saiba mais</a>
+      </section>
+
+      <section id="sobre" class="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>
+          Este projeto demonstra como criar um site responsivo baseado em design
+          do Figma.
+        </p>
+      </section>
+
+      <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <form>
+          <input type="text" placeholder="Nome" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Desafio DIO. Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
