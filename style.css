@@ -28,7 +28,7 @@ html {
 
 /* HEADER */
 .header-container {
-  height: 100vh; 
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,40 +79,31 @@ a.btn {
 
 /* Botão "Baixar para Windows" */
 .btn-of-course {
-  background-color: var(--cor-botao-claro); 
-  color: var(--cor-texto-escuro); 
-  border: 2px solid #ccc; 
+  background-color: var(--cor-botao-claro);
+  color: var(--cor-texto-escuro);
+  border: 2px solid #ccc;
 }
-/* Efeito ao passar o mouse no botão branco */
+
+/* Efeito hover no botão branco */
 .btn-of-course:hover {
-  background-color: #f5f5f5; /
-  transform: scale(1.05); 
-  border-color: #999; 
+  background-color: #f5f5f5;
+  border-color: #999;
+  transform: scale(1.05);
 }
 
 /* Botão "Abrir no navegador" */
 .btn-dark {
-  background-color: var(--cor-botao-escuro); 
-  color: var(--cor-texto-claro); 
+  background-color: var(--cor-botao-escuro);
+  color: var(--cor-texto-claro);
   border: 2px solid transparent;
 }
 
-/* Efeito ao passar o mouse no botão escuro */
+/* Efeito hover no botão escuro */
 .btn-dark:hover {
-  background-color: #3a3f47; 
+  background-color: #3a3f47;
   transform: scale(1.05);
 }
 
-/* Centralizando os botões na área */
-.area-btn {
-  display: flex;
-  justify-content: center;
-  gap: 15px; 
-  margin-top: 20px;
-}
-
-
-/* SECTIONS */
 section.grey {
   background-color: var(--cor-de-fundo-secundaria);
 }
@@ -162,7 +153,6 @@ p {
   color: var(--cor-texto-escuro);
 }
 
-/* ÚLTIMA SECTION */
 .content-box-end {
   display: flex;
   flex-direction: column;
@@ -178,7 +168,6 @@ h3.titulo-end {
   margin-bottom: 16px;
 }
 
-/* FOOTER */
 footer {
   display: flex;
   justify-content: center;
@@ -197,7 +186,6 @@ footer {
   object-fit: cover;
 }
 
-/* RESPONSIVIDADE */
 @media screen and (max-width: 768px) {
   a.btn {
     width: 100%;
@@ -224,4 +212,3 @@ footer {
     margin-bottom: 10px;
   }
 }
-
