@@ -70,7 +70,7 @@ a.btn {
   padding: 12px 24px;
   font: var(--fonte-texto);
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 40px;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
@@ -79,26 +79,26 @@ a.btn {
 
 /* Botão "Baixar para Windows" */
 .btn-of-course {
-  background-color: var(--cor-botao-claro);
-  color: var(--cor-texto-escuro);
+  background-color: #fff;        
+  color: #23272a;                
   border: 2px solid #ccc;
 }
 
-/* Efeito hover no botão branco */
+/* Hover no botão branco */
 .btn-of-course:hover {
-  background-color: #f5f5f5;
+  background-color: #f5f5f5;     
   border-color: #999;
   transform: scale(1.05);
 }
 
 /* Botão "Abrir no navegador" */
 .btn-dark {
-  background-color: var(--cor-botao-escuro);
-  color: var(--cor-texto-claro);
+  background-color: #23272a;      
+  color: #fff;                     
   border: 2px solid transparent;
 }
 
-/* Efeito hover no botão escuro */
+/* Hover no botão escuro */
 .btn-dark:hover {
   background-color: #3a3f47;
   transform: scale(1.05);
