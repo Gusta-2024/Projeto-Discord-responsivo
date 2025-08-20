@@ -1,0 +1,24 @@
+# Node modules (caso use Node.js)
+node_modules/
+
+# Arquivos de build/dist
+dist/
+build/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários de editores
+*.log
+*.tmp
+*.swp
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Cache do navegador ou navegador local
+.cache/
